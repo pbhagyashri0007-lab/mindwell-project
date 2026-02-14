@@ -1,0 +1,91 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-box {
+  margin: 15px 0;
+}
+
+.search-box input {
+  padding: 8px;
+  width: 250px;
+  margin-right: 5px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.add-btn {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background: white;
+}
+
+.dark .card {
+  background: #1e1e1e;
+  border-color: #333;
+}
+
+.card-buttons {
+  margin-top: 10px;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+.logout-btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.toggle-btn {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.pagination {
+  margin-top: 20px;
+}
